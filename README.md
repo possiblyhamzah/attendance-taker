@@ -1,2 +1,2 @@
 # Attendance Taker
-A website to help with attendance taking.
+A website to assist with attendance taking.

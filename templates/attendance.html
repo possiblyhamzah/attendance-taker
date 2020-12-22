@@ -1,0 +1,15 @@
+{% extends "layout.html" %}
+
+{% block title %}
+    Attendance
+{% endblock %}
+
+{% block body %}
+    <h1>Attendance</h1>
+    <h2>{{ student.roll_no }} - {{ student.name }}</h2>
+
+    {% for attendance in attendances %}
+        <h4>{{ attendance.subject }} - {{ attendance.days_present }} - {{ attendance.total_days }}</h4>
+        
+    {% endfor %}
+{% endblock %}

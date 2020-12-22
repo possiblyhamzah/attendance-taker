@@ -1,0 +1,16 @@
+flask_session
+flask_socketio
+certifi
+click
+Flask
+flask-heroku
+Flask-SQLAlchemy
+Jinja2
+MarkupSafe
+psycopg2-binary
+SQLAlchemy
+Werkzeug
+gunicorn
+flask_cors
+flask_script
+flask_migrate

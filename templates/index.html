@@ -1,0 +1,21 @@
+{% extends "layout.html" %}
+
+{% block title %}
+    Account
+{% endblock %}
+
+{% block body %}
+    <br>
+    
+    <h3>Greetings</h3>
+    <br>
+    This is the website for attendance taking for W section of VNIT. It's still in its developmental stages. For testing purposes, access the following links:
+    <br>
+    <a href="https://wsection.herokuapp.com/submitattendance">For adding attendance</a>
+    <br>
+    <a href="https://wsection.herokuapp.com/getattendance">Checking the attendance for a specific day</a> (It will show an error if no attendance exists for that day)
+
+    <br>
+    <br>
+    Students can check their attendance as well, however that is secondary. For testing purposes, I have added the information of two students in the website. For proper testing of the website, enter the information (roll no and name) of all the students in the database.
+{% endblock %}
